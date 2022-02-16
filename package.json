@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "blog backend practice",
   "main": "index.js",
-  "scripts": {
-    "start": "index.js"
-  },
+
   "author": "Start Bootstrap",
   "contributors": [
     "Sonia Itiveh"
