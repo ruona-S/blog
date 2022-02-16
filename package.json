@@ -4,7 +4,7 @@
   "description": "blog backend practice",
   "main": "index.js",
   "script": {
-    "start": "node index.js"
+    "start": ""
   },
   "author": "Start Bootstrap",
   "contributors": [
