@@ -4,7 +4,7 @@
   "description": "blog backend practice",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "index.js"
   },
   "author": "Start Bootstrap",
   "contributors": [
@@ -23,8 +23,5 @@
     "express-session": "^1.17.2",
     "mongoose": "^6.2.1",
     "mongoose-unique-validator": "^3.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
