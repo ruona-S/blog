@@ -75,10 +75,7 @@ app.get('/auth/logout', logoutController)
 app.use((req,res) => res.render(notfound))
 
 
-let port = process.env.PORT
-if (port ==null || port =='') {
-   port = 4000
-}
-app.listen(4000, () => {
+
+app.listen(port, host, (req, res) => {
    console.log('App is listening on port 4000')
 })
