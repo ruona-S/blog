@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "blog backend practice",
   "main": "index.js",
-  "script": {
-    "start": "nodemon index.js"
+  "scripts": {
+    "start": "node index.js"
   },
   "author": "Start Bootstrap",
   "contributors": [
