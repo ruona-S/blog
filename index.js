@@ -10,6 +10,9 @@ const fileUpload = require('express-fileupload')
 const expressSession = require('express-session')
 const flash = require('connect-flash')   // to remove error messages so that they are not permanently saved in the session
 
+const host = '0.0.0.0';
+const port = process.env.PORT || 8080;
+
 
 mongoose.connect('mongodb+srv://<Sonia>:<myunconditionalloveforluffy>@cluster0.ftr9a.mongodb.net/blog_database', {
    useNewUrlParser: true
