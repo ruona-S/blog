@@ -14,7 +14,7 @@ const host = '0.0.0.0';
 const port = process.env.PORT || 8080;
 
 
-mongoose.connect('mongodb+srv://<Sonia>:<myunconditionalloveforluffy>@cluster0.ftr9a.mongodb.net/blog_database', {
+mongoose.connect('mongodb+srv://Sonia:myunconditionalloveforluffy@cluster0.ftr9a.mongodb.net/blog_database', {
    useNewUrlParser: true
 })
 
