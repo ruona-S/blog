@@ -37,7 +37,7 @@ app.use(express.urlencoded({
 app.use(fileUpload())
 app.use('/posts/store', validationMiddleware)
 app.use(expressSession({
-   secret: 'luffy is king of the pirates',
+   secret: '',
    resave: true,
    saveUninitialized: true
 }))
